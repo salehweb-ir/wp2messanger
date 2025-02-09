@@ -20,8 +20,19 @@ function wp2messenger_display_wizard() {
             // Create a new page using the shortcode
             $page_title = __('Anonymous message to Eitaa', 'wp2messenger');
             $page_content = '[default_template]'; // Use shortcode to display the content of default.php
-            // Check if the page already exists
-            $page_check = get_page_by_title($page_title);
+            // Check if the page already exists using WP_Query
+            $query = new WP_Query(array(
+                'post_type'      => 'page',
+                'title'          => $page_title,
+                'posts_per_page' => 1,
+                'no_found_rows'  => true,
+                'ignore_sticky_posts' => true,
+                'update_post_term_cache' => false,
+                'update_post_meta_cache' => false,
+                'orderby'        => 'post_date ID',
+                'order'          => 'ASC',
+            ));
+            $page_check = !empty($query->posts) ? $query->posts[0] : null;
             $page_args = array(
                 'post_type'    => 'page',
                 'post_name'    => 'anonymous-message',
