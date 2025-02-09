@@ -1,0 +1,53 @@
+/* General styles for the plugin user section */
+
+.custom-form-widget {
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.custom-form-widget h2 {
+    color: #333;
+    font-size: 24px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.custom-form-widget label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.custom-form-widget textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    height: 150px;
+    resize: vertical;
+}
+
+.custom-form-widget button {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-form-widget button:hover {
+    background: #005a8e;
+}

@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp2messenger\n"
+"POT-Creation-Date: 2025-02-08 12:58+0330\n"
+"PO-Revision-Date: 2025-02-08 13:06+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp2messenger.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/settings.php:10
+msgid "Configuration saved and form created successfully!"
+msgstr "تنظیمات ذخیره شد و فرم با موفقیت ایجاد شد."
+
+#: admin/settings.php:14
+msgid "wp2messenger Settings"
+msgstr "تنظیمات wp2messenger"
+
+#: admin/settings.php:20 admin/wizard.php:48
+msgid "Eitaa API Token"
+msgstr "توکن API ایتا"
+
+#: admin/settings.php:24 admin/wizard.php:50
+msgid "Eitaa Channel ID"
+msgstr "شناسه کانال ایتا"
+
+#: admin/wizard.php:21
+msgid "Anonymous message to eitaa"
+msgstr "پیام ناشناس به ایتا"
+
+#: admin/wizard.php:39
+msgid "Failed to send test message."
+msgstr "خطا در ارسال پیام آزمایشی"
+
+#: admin/wizard.php:44 wp2messenger.php:84 wp2messenger.php:85
+msgid "wp2messenger Setup Wizard"
+msgstr "ویزارد تنظیمات wp2messenger "
+
+#: admin/wizard.php:46
+msgid "Step 1: Eitaa API Information"
+msgstr "مرحله 1: اطلاعات API ایتا"
+
+#: admin/wizard.php:47
+msgid ""
+"Please follow the instructions on https://eitaayar.ir/admin/api to get your "
+"API token."
+msgstr ""
+"برای دریافت توکن API ایتا به آدرس https://eitaayar.ir/admin/api مراجعه کنید."
+
+#: admin/wizard.php:52
+msgid "Step 2: Test Connection"
+msgstr "مرحله 2: بررسی اتصال"
+
+#: admin/wizard.php:53
+msgid "Test Message"
+msgstr "پیام نمونه"
+
+#: admin/wizard.php:55
+msgid "Test and Save"
+msgstr "بررسی و ذخیره"
+
+#: templates/default.php:23
+msgid "Message sent successfully."
+msgstr "پیام با موفقیت ارسال شد."
+
+#: templates/default.php:25
+msgid "Failed to send message. Try again later."
+msgstr "ارسال پیام ناموفق بود. لطفاً دوباره تلاش کنید."
+
+#: templates/default.php:31
+msgid "Submit Your Message"
+msgstr "پیام خود را ثبت کنید"
+
+#: templates/default.php:33
+msgid "Your Message"
+msgstr "پیام شما"
+
+#: templates/default.php:35
+msgid "Submit"
+msgstr "ثبت"
+
+#. Plugin Name of the plugin/theme
+#: wp2messenger.php:73 wp2messenger.php:74
+msgid "wp2messenger"
+msgstr "wp2messenger "
+
+#. Plugin URI of the plugin/theme
+msgid "http://mjasia.ir/wp2messenger"
+msgstr "http://mjasia.ir/wp2messenger"
+
+#. Description of the plugin/theme
+msgid "Send messages to Eitaa from WordPress forms."
+msgstr "ارسال پیام به ایتا با وردپرس"
+
+#. Author of the plugin/theme
+msgid "Mohammad Javad Asia"
+msgstr "محمد جواد آسیا"
+
+#. Author URI of the plugin/theme
+msgid "http://salehweb.ir"
+msgstr "http://salehweb.ir"

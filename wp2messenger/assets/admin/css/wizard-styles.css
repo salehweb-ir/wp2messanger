@@ -1,0 +1,50 @@
+/* Styles for the plugin setup wizard */
+
+.wp2messenger-wizard-form {
+    background: #e0e0e0;
+    border: 1px solid #e1e1e1;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.wp2messenger-wizard-form h2 {
+    color: #333;
+    font-size: 20px;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.wp2messenger-wizard-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.wp2messenger-wizard-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.wp2messenger-wizard-form input[type="submit"] {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wp2messenger-wizard-form input[type="submit"]:hover {
+    background: #005a8e;
+}
+
+.wp2messenger-wizard-form p {
+    margin-bottom: 15px;
+}
