@@ -37,4 +37,4 @@ There are currently no specific guidelines for contributing to the project. If y
 This project is licensed under the GPLv3 License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For support and contact, please contact [wp2messenger_support](https://eitaa.com/wp2messenger_support) in eitaa messanger.
+For support and contact, please contact by email [mjasia.ir@gmail.com](mailto:mjasia.ir@gmail.com).
